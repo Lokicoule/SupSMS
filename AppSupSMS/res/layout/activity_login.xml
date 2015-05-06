@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity" >
+
+    <TextView
+        android:id="@+id/LoginTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#d28f35"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/username"
+        android:paddingTop="20dp"
+        android:singleLine="true"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12"
+        android:gravity="center"
+        android:background="#d28f35"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/resultLoginTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="26sp" />
+
+    <ToggleButton
+        android:id="@+id/apiChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/supsmsApi"
+        android:textOn="@string/supinfApi" />
+
+    <ProgressBar
+        android:id="@+id/progressBarLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
+
+</LinearLayout>

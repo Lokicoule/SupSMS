@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/HomeTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#d28f35"
+        android:gravity="center"
+        android:text="@string/menu"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/contactMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/contact" />
+    
+    <Button
+        android:id="@+id/saveContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:visibility="gone"
+        android:background="#d28f35" />
+    <Button
+        android:id="@+id/restaureContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recovery"
+        android:visibility="gone"
+        android:background="#d28f35" />
+
+    <Button
+        android:id="@+id/smsMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms" />
+
+    <Button
+        android:id="@+id/smsInbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inbox"
+        android:visibility="gone"
+        android:background="#d28f35" />
+    <Button
+        android:id="@+id/smsSent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sent"
+        android:visibility="gone"
+        android:background="#d28f35" />
+    
+    <Button
+        android:id="@+id/smsSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:visibility="gone"/>
+    
+    <Button
+        android:id="@+id/smsRestaure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recovery"
+        android:visibility="gone"/>
+
+	<TextView
+        android:id="@+id/resultHomeTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="26sp" />
+ 
+    <ProgressBar
+        android:id="@+id/progressBarHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
+    <ToggleButton
+        android:id="@+id/OnOffToggle"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:text="@string/logout" />
+
+
+</LinearLayout>

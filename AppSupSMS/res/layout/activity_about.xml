@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/HomeTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#d28f35"
+        android:gravity="center"
+        android:text="@string/menu"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnApiAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apiAbout"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewApi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptionApi1About"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/button_material_light"
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/textViewApi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptionApi2About"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/button_material_light"
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:visibility="gone" />
+    
+    <Button
+        android:id="@+id/btnSaveAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saveAbout"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/textViewSaveDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptionSaveAbout"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/button_material_light"
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:visibility="gone" />
+    
+    <Button
+        android:id="@+id/btnRecoveryAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recoveryAbout"
+        android:layout_marginTop="10dp"/>
+  
+    <TextView
+        android:id="@+id/textViewRecoveryDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptionRecoveryAbout"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/button_material_light"
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:visibility="gone" />
+    
+    <Button
+        android:id="@+id/btnNotYetAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notYetAbout"
+        android:layout_marginTop="10dp"/>
+    
+    <TextView
+        android:id="@+id/textViewNotYetDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptionNotYetAbout"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/button_material_light"
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:visibility="gone" />
+    
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/goBack"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
